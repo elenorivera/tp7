@@ -59,14 +59,22 @@ treslechescake = new Recipe(
 );
 
 bananapie = new Recipe(
-	"Tiramisu", 
-	"Alison Roman", 
-	"https://static01.nyt.com/images/2017/04/05/dining/05COOKING-TIRAMISU1/05COOKING-TIRAMISU1-master768.jpg?w=1280&q=75", 
-	"tiramisu-ingredients.html", 
-	"tiramisu-equipment.html", 
-	"tiramisu-directions.html"
+	"Banana Pie", 
+	"Logan Gilliam", 
+	"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F05%2F18%2F3355919-banana-cream-pie-ReneePaj-1x1-1.jpg", 
+	"bananapie-ingredients.html", 
+	"bananapie-equipment.html", 
+	"bananapie-directions.html"
 );
 
+frenchtoast = new Recipe(
+	"Fluffy French Toast", 
+	"Analysse Palomares", 
+	"https://images.unsplash.com/photo-1639108094328-2b94a49b1c2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80", 
+	"frenchtoast-ingredients.html", 
+	"frenchtoast-equipment.html", 
+	"frenchtoast-directions.html"
+);
 
 
 window.onload = function() {
@@ -78,6 +86,12 @@ window.onload = function() {
 	document.querySelector("#secondRecipe").onclick = function() {
 		bananapie.displayRecipe();
 	}
+  
+    document.querySelector("#thirdRecipe").onclick = function() {
+		frenchtoast.displayRecipe();
+	}
+  
+
 	
 	
 } // end window.onload

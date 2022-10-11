@@ -47,6 +47,7 @@ ol {
   margin-top 2px;
   font-size: 20px;
   position: relative;
+  display: block;
 }
 
 body {
@@ -77,10 +78,20 @@ font-family: 'Sansita Swashed', cursive;
   
 }
 
+#titleBanner h1.tp {
+	font-size: 250%;
+}
 
 #titlebanner h1.tan{
   color: #966919;
 
+}
+
+#titlebanner h4 {
+  position: absolute;
+	bottom: 0;
+	left: 2vw;
+	color: #fff;
 }
 
 
