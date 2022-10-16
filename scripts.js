@@ -59,7 +59,7 @@ treslechescake = new Recipe(
 );
 
 bananapie = new Recipe(
-	"Banana Pie", 
+	"Banana Cream Pie", 
 	"Logan Gilliam", 
 	"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F05%2F18%2F3355919-banana-cream-pie-ReneePaj-1x1-1.jpg", 
 	"bananapie-ingredients.html", 
